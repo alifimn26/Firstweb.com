@@ -1,0 +1,56 @@
+body {
+    background-color: #040d27;
+    color: #f7f7f7;
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(images/malaysia.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+ul.nav li {
+    display: inline;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.nav-link {
+    color: #fff !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}

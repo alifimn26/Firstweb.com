@@ -1,0 +1,133 @@
+body {
+    background-color: #040d27;
+    color: #f7f7f7;
+    font-family: Arial, 'Helvetica', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(images/malaysia.png);
+    background-size:cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+
+div.login{
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    
+}
+
+ul.list-unstyled{
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-decoration:solid;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+p.lead {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 90px;
+}
+
+section ul {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+section li {
+    margin-bottom: 10px;
+}
+
+ul.list-unstyled {
+    position: relative;
+    text-align: center;
+    display: inline-flexbox;
+    font-size: 1.2rem;
+    background-position: center;
+    line-height: 1.9;
+    margin-bottom: 70px;
+    
+}
+
+div.form {
+    display: flex-row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.map{
+    font-size: 1.4rem;
+    padding: 50px 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #0a1c47;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
